@@ -1,0 +1,10 @@
+name : titlelr
+main : titlelr\Main
+author : Leader
+version : 1.0.0
+api :
+- 4.0.0
+
+commands : 
+  타이틀:
+   description: 타이틀 UI 입니다.  | 리더 제작
