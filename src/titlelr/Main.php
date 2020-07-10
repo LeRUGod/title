@@ -57,7 +57,7 @@ class Main extends PluginBase implements Listener {
 		if($pack instanceof ModalFormResponsePacket and $pack->formId == 1712) {
 		$line = json_decode($pack->formData, true);
 		if($line[0] == null) {
-			$player->sendMEssage("§l§b[§l§r타이틀§l§b]§7 제데로 적어주시기 바랍니다 !");
+			$player->sendMEssage("§l§b[§l§r타이틀§l§b]§7 제대로 적어주시기 바랍니다 !");
 	} else {
 		foreach ($this->getServer()->getOnlinePLayers() as $player) {
 			$player->addTitle("§l§6[§l§r!§l§6]§l§7 {$line[0]}");
